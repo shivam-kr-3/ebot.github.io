@@ -1,0 +1,202 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+  }
+  /*.darkf{
+     border-radius: 50%;
+     height: 200px;
+     width: 200px;
+     margin-top: 60px;
+     margin-left: 150px;
+
+  }*/
+  .sunset{
+   
+    
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 500px;
+  }
+  .heading{
+    color: white;
+    margin-left: 420px;
+
+  }
+  .darkf {
+  
+    border-radius: 50%;
+     height: 200px;
+     width: 200px;
+     margin-top: 60px;
+     margin-left: 150px;
+     
+  }
+  .darkf:hover{
+    transform: rotateX(180);
+
+  }
+  .sunset:hover{
+    transform: rotateY('180');
+  }
+  .heading:hover{
+    transform: rotateY('120');
+  }
+  .container2 {
+    position: relative;
+    height: 200px;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    /*background-color:black;*/
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 300%;
+  }
+  .containe {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #my-image-div{ 
+    background-image: url("musicaly.jpg"); 
+    background-size: cover; 
+    height: 500px; 
+    width: 100%; 
+  } 
+  #my-image-text{ 
+    position: relative; 
+    top: 250px; 
+    width: 500px;
+    margin-left: 400px; 
+    font-size: large;
+    color: white;
+    
+  } 
+  #para{
+    position: relative;
+    color:white;
+    top: 250px;
+    margin-left: 390px;
+    
+  }
+  .footer {
+    background: #1a0d00;
+    opacity: 90%;
+    padding: 10px 0;
+  }
+  .footer a {
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+   /* border-right: 1px solid white; */
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    /*border-left: 1px solid white;*/
+  }
+  .footer a:hover {
+    color: rgb(21, 119, 146);
+  }
+  #ftr{
+    color: white;
+    margin-left: 490px;
+  }
+  .dev a{
+    transition: all .9s ease;
+    
+  }
+  .form{
+    width: 66%;
+  }
+  .mb-3{
+    width: 66%;
+
+  }
+  #fom{
+    height: 40px;
+    background-color: aqua;
+    width: 43%;
+    
+  }
+  #fom2{
+    background-color: green;
+    width: 43%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  #imageg{
+    margin-left: 600px;
+  }
+  .zoom {
+    transition: transform .2s;
+  }
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
